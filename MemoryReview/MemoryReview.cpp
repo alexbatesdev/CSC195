@@ -83,7 +83,7 @@ int main()
 	// ** ALLOCATION/DEALLOCATION **
 	//
 	// create an int pointer that points at an int allocated on the heap, set the allocated int value to some number
-	int* pointer1 = (int*)malloc(10);
+	int* pointer1 = new int(12);
 	// output the pointer value, this should be the address of the int allocated on the heap
 	cout << '\n' << pointer1;
 	// output the dereference pointer
@@ -105,7 +105,7 @@ int main()
 	cout << '\n' << &fiveGum[count];
 	}
 	// deallocate the int pointer to free up the memory block (remember it's an array)
-	delete[] fiveGum;
+	delete [] fiveGum;
 
 	// ** STRUCTURE **
 	//

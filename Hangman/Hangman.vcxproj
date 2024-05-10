@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{461184db-bc45-466d-b118-c4ea6861a6a1}</ProjectGuid>
-    <RootNamespace>Week3</RootNamespace>
+    <ProjectGuid>{902d0f48-88eb-461e-b9e7-2d517ff190c3}</ProjectGuid>
+    <RootNamespace>Hangman</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,14 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MyBase.cpp" />
-    <ClCompile Include="MyDerived.cpp" />
-    <ClCompile Include="Week3.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Hangman.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="View.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MyBase.h" />
-    <ClInclude Include="MyConfig.h" />
-    <ClInclude Include="MyDerived.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="View.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Words.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

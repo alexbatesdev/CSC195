@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{461184db-bc45-466d-b118-c4ea6861a6a1}</ProjectGuid>
-    <RootNamespace>Week3</RootNamespace>
+    <ProjectGuid>{fb9c4576-8696-4b6d-93ee-c3a3131a1771}</ProjectGuid>
+    <RootNamespace>My41Database</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,14 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Bird.cpp" />
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="Dolphin.cpp" />
     <ClCompile Include="MyBase.cpp" />
-    <ClCompile Include="MyDerived.cpp" />
-    <ClCompile Include="Week3.cpp" />
+    <ClCompile Include="MyInput.cpp" />
+    <ClCompile Include="[4-1]Database.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="Bird.h" />
+    <ClInclude Include="Database.h" />
+    <ClInclude Include="Dolphin.h" />
     <ClInclude Include="MyBase.h" />
-    <ClInclude Include="MyConfig.h" />
-    <ClInclude Include="MyDerived.h" />
+    <ClInclude Include="MyInput.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
